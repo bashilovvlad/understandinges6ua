@@ -425,7 +425,7 @@ collection.items.push(1);
 collection.items.push(2);
 collection.items.push(3);
 
-for (let x of collection) {
+for (let x of collection.items) {
     console.log(x);
 }
 
